@@ -2,8 +2,8 @@
 // 🎵 MUSIC
 // =============================
 const playlist = [
-  { title: 'Cô gái này là của ai', src: 'music/bai1.mp3' },
-  { title: 'PHONECERT', src: 'music/bai2.mp3' },
+  { title: 'Đẹp trai', src: 'music/demo1.mp3' },
+  { title: 'Lọ', src: 'music/demo2.mp3' },
   { title: 'Anh là của em', src: 'music/bai3.mp3' },
 ];
 
@@ -44,7 +44,7 @@ function openMusicModal() {
 // =============================
 function openLetterModal() {
   const lines = [
-    '8/3 chúc Fuba có 1 ngày vui vẻ và đăng nhiều ảnh răm 💌',
+    '8/3 chúc Hoàng Anh có 1 ngày vui vẻ và đăng nhiều ảnh dâm 🤤',
   ];
 
   const html = `
@@ -119,7 +119,7 @@ function openGiftModal() {
 
 function openGift() {
   
-  const surprise = 'Chúc fuba luôn mãi xinh đẹp và hạnh phúc! 🌸✨💕';
+  const surprise = 'Chúc Hoàng Anh sớm có được tao! 🌸✨💕';
 
   document.getElementById('giftBox').innerHTML = `
     <div class="gift-open">
@@ -146,4 +146,5 @@ function closeModal(event) {
 
 document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') closeModalBtn();
+
 });
