@@ -67,7 +67,7 @@ function openLetterModal() {
 const gallery = [
   'images/anh4.jpg',
   'images/anh5.jpg',
-  'images/anh6.jpg',
+  'images/anh7.jpg',
 ];
 
 let galleryIndex = 0;
@@ -148,4 +148,5 @@ document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') closeModalBtn();
 
 });
+
 
