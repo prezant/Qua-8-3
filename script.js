@@ -65,9 +65,9 @@ function openLetterModal() {
 // 🖼️ IMAGE - Gallery
 // =============================
 const gallery = [
-  'images/anh1.jpg',
-  'images/anh2.jpg',
-  'images/anh3.jpg',
+  'images/anh4.jpg',
+  'images/anh5.jpg',
+  'images/anh6.jpg',
 ];
 
 let galleryIndex = 0;
@@ -148,3 +148,4 @@ document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') closeModalBtn();
 
 });
+
